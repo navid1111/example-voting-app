@@ -6,6 +6,7 @@ import random
 import json
 import logging
 
+# CI/CD test - adding a small change
 option_a = os.getenv('OPTION_A', "Cats")
 option_b = os.getenv('OPTION_B', "Dogs")
 hostname = socket.gethostname()
